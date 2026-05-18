@@ -3,7 +3,7 @@ package com.opsrag.backend.pojo.vo;
 import lombok.Data;
 
 @Data
-public class LoginVO {
+public class UserLoginVO {
     private Long userId;
     private String token;
     private String role;

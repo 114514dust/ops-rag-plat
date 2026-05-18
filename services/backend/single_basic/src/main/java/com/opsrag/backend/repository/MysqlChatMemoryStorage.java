@@ -1,21 +1,17 @@
 package com.opsrag.backend.repository;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.opsrag.backend.common.Interception.LoginInterceptor;
 import com.opsrag.backend.common.context.BaseContext;
-import com.opsrag.backend.common.exception.BusinessException;
-import com.opsrag.backend.pojo.KbChatLog;
+import com.opsrag.backend.pojo.Entity.KbChatLog;
 import com.opsrag.backend.service.IKbChatLogService;
 import dev.langchain4j.data.message.*;
-import dev.langchain4j.model.openai.internal.chat.AssistantMessage;
 import dev.langchain4j.store.memory.chat.ChatMemoryStore;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;

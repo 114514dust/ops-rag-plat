@@ -1,10 +1,9 @@
 package com.opsrag.backend.service.impl;
 
-import com.baomidou.mybatisplus.core.assist.ISqlRunner;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.opsrag.backend.common.constent.AiConstent;
 import com.opsrag.backend.mapper.KbFaqMapper;
-import com.opsrag.backend.pojo.KbFaq;
+import com.opsrag.backend.pojo.Entity.KbFaq;
 import com.opsrag.backend.service.RagSyncService;
 import dev.langchain4j.data.document.Document;
 import org.springframework.beans.factory.annotation.Autowired;

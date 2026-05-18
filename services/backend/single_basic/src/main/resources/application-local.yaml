@@ -1,0 +1,18 @@
+database:
+  url: localhost
+  port: 3306
+  name: ops_rag_plat
+
+  username: root
+  password: Lzf050601
+
+redis:
+  port: 6379
+  url: localhost
+
+ops:
+  oss:
+    access-key-id: YOUR_ACCESS_KEY_ID
+    access-key-secret: YOUR_ACCESS_KEY_SECRET
+    bucket-name: java-ai-404
+    endpoint: oss-cn-beijing.aliyuncs.com
